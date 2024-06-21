@@ -1,0 +1,57 @@
+/* Prerequisites to simplify the code */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background: #1F2937;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    margin-bottom: 46px;
+}
+.nav-links {
+    display: flex;
+    gap: 12px;
+}
+.nav-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+.hero-title {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.hero-description {
+    color: #e5e7eb;
+}
+.hero-image img {
+    width: 300px;
+    height: auto;
+}
+.hero-contents {
+    max-width: 300px;
+}
